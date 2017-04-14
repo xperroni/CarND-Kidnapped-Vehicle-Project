@@ -82,9 +82,6 @@ class ParticleFilter {
 	std::vector<LandmarkObs> predict(const std::vector<LandmarkObs> &mapped, const Map &map_landmarks);
 
 public:
-	// Current estimated vehicle state
-	Particle state;
-
 	// Set of current particles
 	std::vector<Particle> particles;
 
